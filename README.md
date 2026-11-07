@@ -2,6 +2,8 @@
 
 Agent skills that **connect your agent to CrakSEO's remote MCP servers** for SEO research, Search Console and URL indexing. Works with Claude Code, Codex, Cursor and other clients that load `SKILL.md`.
 
+Skill names follow [MCP listing names](../../docs-internal/engineering/operations/mcp-listing-names.mdx): keyword-first, ending with CrakSEO.
+
 ## Install
 
 ```bash
@@ -19,18 +21,18 @@ Claude Code plugins (MCP + skill together):
 
 ## Skills (one per MCP)
 
-| Skill | MCP URL | Use when |
+| Skill | MCP URL | Listing name |
 | --- | --- | --- |
-| [`crakseo-seo`](skills/crakseo-seo/SKILL.md) | `https://crakseo.com/mcp/seo` | SEO Tools: Keyword Research, SERP, Backlinks & Rank Tracking |
-| [`crakseo-serp-api`](skills/crakseo-serp-api/SKILL.md) | `https://crakseo.com/mcp/serp-api` | SERP API: Live Google Search Results |
-| [`crakseo-keyword-research`](skills/crakseo-keyword-research/SKILL.md) | `https://crakseo.com/mcp/keyword-research` | Keyword Research: Search Volume, Keyword Difficulty & CPC |
-| [`crakseo-backlinks`](skills/crakseo-backlinks/SKILL.md) | `https://crakseo.com/mcp/backlinks` | Backlink Checker: Backlinks, Referring Domains & Anchor Text |
-| [`crakseo-rank-tracker`](skills/crakseo-rank-tracker/SKILL.md) | `https://crakseo.com/mcp/rank-tracker` | Google Rank Checker: Keyword Rankings & Rank Tracking |
-| [`crakseo-site-audit`](skills/crakseo-site-audit/SKILL.md) | `https://crakseo.com/mcp/site-audit` | SEO Site Audit: Technical SEO Checker & Page Speed |
-| [`crakseo-local-seo`](skills/crakseo-local-seo/SKILL.md) | `https://crakseo.com/mcp/local-seo` | Local SEO: Google Maps Rank Checker & Business Profile Ratings |
-| [`crakseo-ai-visibility`](skills/crakseo-ai-visibility/SKILL.md) | `https://crakseo.com/mcp/ai-visibility` | AI Search Visibility: Brand Mentions in ChatGPT, Perplexity & AI Overviews |
-| [`crakseo-url-indexing`](skills/crakseo-url-indexing/SKILL.md) | `https://crakseo.com/mcp/url-indexing` | URL Indexing: IndexNow, Index Checker & Force Indexing |
-| [`crakseo-search-console`](skills/crakseo-search-console/SKILL.md) | `https://crakseo.com/mcp/search-console` | Free Google Search Console & Bing Webmaster Tools |
+| [`seo-tools-keyword-research-serp-backlinks`](skills/seo-tools-keyword-research-serp-backlinks/SKILL.md) | `https://crakseo.com/mcp/seo` | SEO Tools: Keyword Research, SERP, Backlinks & Rank Tracking by CrakSEO |
+| [`serp-api-live-google-search-results`](skills/serp-api-live-google-search-results/SKILL.md) | `https://crakseo.com/mcp/serp-api` | SERP API: Live Google Search Results by CrakSEO |
+| [`keyword-research-search-volume-cpc`](skills/keyword-research-search-volume-cpc/SKILL.md) | `https://crakseo.com/mcp/keyword-research` | Keyword Research: Search Volume, Keyword Difficulty & CPC by CrakSEO |
+| [`backlink-checker-referring-domains`](skills/backlink-checker-referring-domains/SKILL.md) | `https://crakseo.com/mcp/backlinks` | Backlink Checker: Backlinks, Referring Domains & Anchor Text by CrakSEO |
+| [`google-rank-checker-keyword-rankings`](skills/google-rank-checker-keyword-rankings/SKILL.md) | `https://crakseo.com/mcp/rank-tracker` | Google Rank Checker: Keyword Rankings & Rank Tracking by CrakSEO |
+| [`seo-site-audit-technical-page-speed`](skills/seo-site-audit-technical-page-speed/SKILL.md) | `https://crakseo.com/mcp/site-audit` | SEO Site Audit: Technical SEO Checker & Page Speed by CrakSEO |
+| [`local-seo-google-maps-rank-checker`](skills/local-seo-google-maps-rank-checker/SKILL.md) | `https://crakseo.com/mcp/local-seo` | Local SEO: Google Maps Rank Checker & Business Profile Ratings by CrakSEO |
+| [`ai-search-visibility-brand-mentions`](skills/ai-search-visibility-brand-mentions/SKILL.md) | `https://crakseo.com/mcp/ai-visibility` | AI Search Visibility: Brand Mentions in ChatGPT, Perplexity & AI Overviews by CrakSEO |
+| [`gsc-indexing-indexnow-force-indexing`](skills/gsc-indexing-indexnow-force-indexing/SKILL.md) | `https://crakseo.com/mcp/url-indexing` | Google Search Console Indexing: Index Checker, IndexNow & Force Indexing by CrakSEO |
+| [`free-google-search-console-gsc-bing`](skills/free-google-search-console-gsc-bing/SKILL.md) | `https://crakseo.com/mcp/search-console` | Free Google Search Console (GSC) & Bing Webmaster Tools by CrakSEO |
 
 Each skill tells the agent to **add the matching remote MCP** if it is not already connected, then call CrakSEO tools instead of scraping or guessing.
 

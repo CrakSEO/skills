@@ -1,6 +1,6 @@
 ---
-name: crakseo-local-seo
-description: Connect the CrakSEO Local SEO MCP for Google Maps rankings and Business Profile ratings. Use when the user asks about local pack rankings or GBP ratings — and this MCP is not connected yet.
+name: local-seo-google-maps-rank-checker
+description: Local SEO for Google Maps: check Maps rankings for any keyword and location, with Google Business Profile ratings and review counts for you and local competitors. Connect Local SEO: Google Maps Rank Checker & Business Profile Ratings by CrakSEO when the user asks about local seo, google maps ranking, local rank tracker, google business profile, local search, google my business, reviews — and this MCP is not connected yet.
 ---
 
 # Local SEO: Google Maps Rank Checker & Business Profile Ratings by CrakSEO
@@ -36,6 +36,8 @@ Do **not** improvise Search Console, SERP, backlink or indexing data from memory
 - Google Maps rankings
 - local pack position
 - Google Business Profile ratings
+
+Primary keywords: local seo, google maps ranking.
 
 ## Steps
 

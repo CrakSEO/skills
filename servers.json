@@ -1,147 +1,102 @@
 [
   {
-    "slug": "crakseo-seo",
+    "slug": "seo-tools-keyword-research-serp-backlinks",
     "mcpSlug": "seo",
+    "mcpConfigKey": "crakseo-seo",
     "endpoint": "https://crakseo.com/mcp/seo",
     "title": "SEO Tools: Keyword Research, SERP, Backlinks & Rank Tracking",
-    "description": "Connect the CrakSEO SEO Tools MCP for keyword volume, difficulty, Google/Bing SERP, backlinks, rank checks, site audits, local SEO and AI visibility. Use when the user asks for SEO research, competitor keywords, rankings, backlinks or page audits — and the CrakSEO SEO MCP is not connected yet.",
-    "triggers": [
-      "keyword search volume, CPC or difficulty",
-      "Google or Bing SERP results",
-      "where a domain ranks for keywords",
-      "backlinks or referring domains",
-      "SEO site audit or page speed",
-      "Google Maps rankings or AI Overview / ChatGPT citations"
-    ],
-    "firstTool": "get_api_credit_balance",
+    "connectorName": "SEO Tools: Keyword Research, SERP, Backlinks & Rank Tracking by CrakSEO",
+    "oneLiner": "SEO tools in one connection: keyword research, search volume, live Google SERP, rank tracking, backlinks, site audit, local SEO and AI search visibility.",
     "notes": "This umbrella server includes every SEO data tool from the seven focused servers. Prefer it unless the client limits tool counts — then use a focused server instead. Search Console and URL Indexing stay separate."
   },
   {
-    "slug": "crakseo-serp-api",
+    "slug": "serp-api-live-google-search-results",
     "mcpSlug": "serp-api",
+    "mcpConfigKey": "crakseo-serp-api",
     "endpoint": "https://crakseo.com/mcp/serp-api",
     "title": "SERP API: Live Google Search Results",
-    "description": "Connect the CrakSEO SERP API MCP for live Google and Bing results, AI Overview sources and Maps rankings. Use when the user asks to see the SERP, scrape rankings or check AI Overviews — and this MCP is not connected yet.",
-    "triggers": [
-      "live Google or Bing SERP",
-      "AI Overview sources",
-      "Google Maps rankings for a keyword"
-    ],
-    "firstTool": "get_api_credit_balance",
+    "connectorName": "SERP API: Live Google Search Results by CrakSEO",
+    "oneLiner": "SERP API for SEO: live Google search results and keyword rankings by location and device, with SERP features, Google AI Overview sources, Google Maps and Bing.",
     "notes": "Focused subset of SEO Tools. Do not also connect the umbrella SEO MCP for the same task."
   },
   {
-    "slug": "crakseo-keyword-research",
+    "slug": "keyword-research-search-volume-cpc",
     "mcpSlug": "keyword-research",
+    "mcpConfigKey": "crakseo-keyword-research",
     "endpoint": "https://crakseo.com/mcp/keyword-research",
     "title": "Keyword Research: Search Volume, Keyword Difficulty & CPC",
-    "description": "Connect the CrakSEO Keyword Research MCP for search volume, CPC, difficulty, keyword ideas and competitor gaps. Use when the user plans content keywords — and this MCP is not connected yet.",
-    "triggers": [
-      "keyword search volume or CPC",
-      "keyword difficulty",
-      "keyword ideas or competitor keyword gaps"
-    ],
-    "firstTool": "get_api_credit_balance",
+    "connectorName": "Keyword Research: Search Volume, Keyword Difficulty & CPC by CrakSEO",
+    "oneLiner": "Keyword research for SEO: monthly search volume, keyword difficulty, CPC, keyword ideas, related keywords and competitor keyword gaps for any topic and country.",
     "notes": "Focused subset of SEO Tools. Do not also connect the umbrella SEO MCP for the same task."
   },
   {
-    "slug": "crakseo-backlinks",
+    "slug": "backlink-checker-referring-domains",
     "mcpSlug": "backlinks",
+    "mcpConfigKey": "crakseo-backlinks",
     "endpoint": "https://crakseo.com/mcp/backlinks",
     "title": "Backlink Checker: Backlinks, Referring Domains & Anchor Text",
-    "description": "Connect the CrakSEO Backlinks MCP to analyze backlinks, referring domains and anchors. Use when the user asks who links to a site — and this MCP is not connected yet. For indexing backlinks, connect URL Indexing instead.",
-    "triggers": [
-      "check backlinks",
-      "referring domains",
-      "backlink anchor text"
-    ],
-    "firstTool": "get_api_credit_balance",
+    "connectorName": "Backlink Checker: Backlinks, Referring Domains & Anchor Text by CrakSEO",
+    "oneLiner": "Backlink checker for SEO: backlinks, referring domains and anchor text for any website or competitor. Link analysis for backlink audits and link building.",
     "notes": "Does not force-index backlinks. For that, connect https://crakseo.com/mcp/url-indexing."
   },
   {
-    "slug": "crakseo-rank-tracker",
+    "slug": "google-rank-checker-keyword-rankings",
     "mcpSlug": "rank-tracker",
+    "mcpConfigKey": "crakseo-rank-tracker",
     "endpoint": "https://crakseo.com/mcp/rank-tracker",
     "title": "Google Rank Checker: Keyword Rankings & Rank Tracking",
-    "description": "Connect the CrakSEO Rank Tracker MCP for live keyword positions, ranked keywords and competitor gaps. Use when the user asks where they rank — and this MCP is not connected yet.",
-    "triggers": [
-      "check Google rankings",
-      "ranked keywords for a domain",
-      "competitor domains for a keyword"
-    ],
-    "firstTool": "get_api_credit_balance",
+    "connectorName": "Google Rank Checker: Keyword Rankings & Rank Tracking by CrakSEO",
+    "oneLiner": "Google rank checker for SEO: live keyword rankings and positions for any website, ranked keywords, ranking competitors and keyword gaps. On-demand rank tracking.",
     "notes": "Point-in-time checks, not a built-in scheduled tracker."
   },
   {
-    "slug": "crakseo-site-audit",
+    "slug": "seo-site-audit-technical-page-speed",
     "mcpSlug": "site-audit",
+    "mcpConfigKey": "crakseo-site-audit",
     "endpoint": "https://crakseo.com/mcp/site-audit",
     "title": "SEO Site Audit: Technical SEO Checker & Page Speed",
-    "description": "Connect the CrakSEO Site Audit MCP for on-page/technical checks and Lighthouse scores. Use when the user asks to audit pages or page speed — and this MCP is not connected yet.",
-    "triggers": [
-      "SEO site audit",
-      "technical SEO issues",
-      "page speed / Lighthouse scores"
-    ],
-    "firstTool": "get_api_credit_balance",
+    "connectorName": "SEO Site Audit: Technical SEO Checker & Page Speed by CrakSEO",
+    "oneLiner": "SEO site audit and technical SEO checker: on-page SEO checks, page speed, Lighthouse and Core Web Vitals scores for up to 5 URLs per call.",
     "notes": "Audits supplied URLs (up to 5 per call), not an automatic whole-site crawl."
   },
   {
-    "slug": "crakseo-local-seo",
+    "slug": "local-seo-google-maps-rank-checker",
     "mcpSlug": "local-seo",
+    "mcpConfigKey": "crakseo-local-seo",
     "endpoint": "https://crakseo.com/mcp/local-seo",
     "title": "Local SEO: Google Maps Rank Checker & Business Profile Ratings",
-    "description": "Connect the CrakSEO Local SEO MCP for Google Maps rankings and Business Profile ratings. Use when the user asks about local pack rankings or GBP ratings — and this MCP is not connected yet.",
-    "triggers": [
-      "Google Maps rankings",
-      "local pack position",
-      "Google Business Profile ratings"
-    ],
-    "firstTool": "get_api_credit_balance",
+    "connectorName": "Local SEO: Google Maps Rank Checker & Business Profile Ratings by CrakSEO",
+    "oneLiner": "Local SEO for Google Maps: check Maps rankings for any keyword and location, with Google Business Profile ratings and review counts for you and local competitors.",
     "notes": "Ratings and review counts only — not full review text or review management."
   },
   {
-    "slug": "crakseo-ai-visibility",
+    "slug": "ai-search-visibility-brand-mentions",
     "mcpSlug": "ai-visibility",
+    "mcpConfigKey": "crakseo-ai-visibility",
     "endpoint": "https://crakseo.com/mcp/ai-visibility",
     "title": "AI Search Visibility: Brand Mentions in ChatGPT, Perplexity & AI Overviews",
-    "description": "Connect the CrakSEO AI Visibility MCP for ChatGPT/Perplexity brand mentions and Google AI Overview citations. Use when the user asks if AI search cites their brand — and this MCP is not connected yet.",
-    "triggers": [
-      "ChatGPT brand mentions",
-      "Perplexity citations",
-      "Google AI Overview sources"
-    ],
-    "firstTool": "get_api_credit_balance",
+    "connectorName": "AI Search Visibility: Brand Mentions in ChatGPT, Perplexity & AI Overviews by CrakSEO",
+    "oneLiner": "AI search visibility for SEO and GEO: check brand mentions in ChatGPT, Perplexity and Google AI Overviews, and see which sources and citations AI answers use.",
     "notes": "Sampled checks, not continuous monitoring or a single visibility score."
   },
   {
-    "slug": "crakseo-url-indexing",
+    "slug": "gsc-indexing-indexnow-force-indexing",
     "mcpSlug": "url-indexing",
+    "mcpConfigKey": "crakseo-url-indexing",
     "endpoint": "https://crakseo.com/mcp/url-indexing",
-    "title": "URL Indexing: IndexNow, Index Checker & Force Indexing",
-    "description": "Connect the CrakSEO URL Indexing MCP for IndexNow, Bing submission, sitemap resubmit, index checks and paid force indexing. Use when the user wants pages or backlinks crawled/indexed — and this MCP is not connected yet.",
-    "triggers": [
-      "submit URLs to IndexNow or Bing",
-      "check if a URL is indexed",
-      "force Google to crawl a URL or backlink",
-      "resubmit a sitemap"
-    ],
-    "firstTool": "get_force_indexing_balance",
+    "title": "Google Search Console Indexing: Index Checker, IndexNow & Force Indexing",
+    "connectorName": "Google Search Console Indexing: Index Checker, IndexNow & Force Indexing by CrakSEO",
+    "oneLiner": "Google Search Console indexing for SEO: Google index checker, request indexing via IndexNow, Bing and sitemap resubmission, and force indexing for pages Google won't index.",
     "notes": "Free submission cannot force Google. For force indexing: quote first, then send the owner to the confirmation URL. Never use the Google Indexing API for normal pages."
   },
   {
-    "slug": "crakseo-search-console",
+    "slug": "free-google-search-console-gsc-bing",
     "mcpSlug": "search-console",
+    "mcpConfigKey": "crakseo-search-console",
     "endpoint": "https://crakseo.com/mcp/search-console",
-    "title": "Free Google Search Console & Bing Webmaster Tools",
-    "description": "Connect the free CrakSEO Search Console MCP for GSC/Bing queries, URL inspection, sitemaps and crawl issues. Use when the user asks about Search Console or Bing Webmaster data — and this MCP is not connected yet.",
-    "triggers": [
-      "Search Console clicks, impressions or queries",
-      "URL inspection / indexing status for owned pages",
-      "list or submit sitemaps",
-      "Bing Webmaster crawl issues or stats"
-    ],
-    "firstTool": "list_search_console_properties",
+    "title": "Free Google Search Console (GSC) & Bing Webmaster Tools",
+    "connectorName": "Free Google Search Console (GSC) & Bing Webmaster Tools by CrakSEO",
+    "oneLiner": "Free Google Search Console (GSC) for SEO: your own Search Console search analytics, keywords, search rankings, clicks, impressions, URL inspection and Bing Webmaster Tools.",
     "notes": "Free. Needs the user's Google/Bing properties connected in CrakSEO. If not connected, show the connection link from the tool result."
   }
 ]

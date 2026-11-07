@@ -1,6 +1,6 @@
 ---
-name: crakseo-backlinks
-description: Connect the CrakSEO Backlinks MCP to analyze backlinks, referring domains and anchors. Use when the user asks who links to a site — and this MCP is not connected yet. For indexing backlinks, connect URL Indexing instead.
+name: backlink-checker-referring-domains
+description: Backlink checker for SEO: backlinks, referring domains and anchor text for any website or competitor. Link analysis for backlink audits and link building. Connect Backlink Checker: Backlinks, Referring Domains & Anchor Text by CrakSEO when the user asks about backlinks, backlink checker, referring domains, link analysis, anchor text, link gap, competitor backlinks, lost links — and this MCP is not connected yet.
 ---
 
 # Backlink Checker: Backlinks, Referring Domains & Anchor Text by CrakSEO
@@ -36,6 +36,8 @@ Do **not** improvise Search Console, SERP, backlink or indexing data from memory
 - check backlinks
 - referring domains
 - backlink anchor text
+
+Primary keywords: backlinks, backlink checker, referring domains.
 
 ## Steps
 
