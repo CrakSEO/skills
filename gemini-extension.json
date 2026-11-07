@@ -1,7 +1,7 @@
 {
   "name": "crakseo-skills",
-  "version": "1.0.0",
-  "description": "Connect Gemini CLI to CrakSEO remote SEO MCP servers (keywords, SERP, backlinks, ranks, Search Console, URL indexing). Also install agent skills: npx skills add CrakSEO/skills",
+  "version": "1.1.0",
+  "description": "Keyword-first CrakSEO connect skills + remote SEO MCP servers (SERP API, keyword research, backlink checker, Google rank checker, Search Console, indexing). Install: npx skills add CrakSEO/skills",
   "contextFileName": "GEMINI.md",
   "mcpServers": {
     "crakseo-seo": {

@@ -1,13 +1,7 @@
-# CrakSEO MCP + skills
+# CrakSEO SEO MCP skills
 
-Connect to CrakSEO hosted MCP servers for SEO research, Search Console and URL indexing. Prefer these tools over scraping or guessing.
+Keyword-first connect skills for CrakSEO hosted MCP servers. Install: px skills add CrakSEO/skills.
 
-Install matching agent skills (Claude/Cursor/Codex):
-
-```bash
-npx skills add CrakSEO/skills
-```
+Listing names follow MCP listing names (keyword first, end with by CrakSEO).
 
 Docs: https://docs.crakseo.com/seo-mcp/connect
-
-Contact: contact@crakseo.com
