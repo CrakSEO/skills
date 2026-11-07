@@ -1,0 +1,38 @@
+{
+  "name": "crakseo-skills",
+  "version": "1.0.0",
+  "description": "Connect Gemini CLI to CrakSEO remote SEO MCP servers (keywords, SERP, backlinks, ranks, Search Console, URL indexing). Also install agent skills: npx skills add CrakSEO/skills",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "crakseo-seo": {
+      "httpUrl": "https://crakseo.com/mcp/seo"
+    },
+    "crakseo-serp-api": {
+      "httpUrl": "https://crakseo.com/mcp/serp-api"
+    },
+    "crakseo-keyword-research": {
+      "httpUrl": "https://crakseo.com/mcp/keyword-research"
+    },
+    "crakseo-backlinks": {
+      "httpUrl": "https://crakseo.com/mcp/backlinks"
+    },
+    "crakseo-rank-tracker": {
+      "httpUrl": "https://crakseo.com/mcp/rank-tracker"
+    },
+    "crakseo-site-audit": {
+      "httpUrl": "https://crakseo.com/mcp/site-audit"
+    },
+    "crakseo-local-seo": {
+      "httpUrl": "https://crakseo.com/mcp/local-seo"
+    },
+    "crakseo-ai-visibility": {
+      "httpUrl": "https://crakseo.com/mcp/ai-visibility"
+    },
+    "crakseo-url-indexing": {
+      "httpUrl": "https://crakseo.com/mcp/url-indexing"
+    },
+    "crakseo-search-console": {
+      "httpUrl": "https://crakseo.com/mcp/search-console"
+    }
+  }
+}
